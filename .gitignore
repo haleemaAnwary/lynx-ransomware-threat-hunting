@@ -1,0 +1,12 @@
+# Keep sensitive material and local environment files out of commits
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.kdbx
+*.log
+__pycache__/
+.venv/
+venv/
