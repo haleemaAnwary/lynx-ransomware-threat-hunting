@@ -4,6 +4,8 @@
 
 A hands-on threat hunting and detection engineering case study based on the [DFIR Report's Lynx ransomware investigation](https://thedfirreport.com/2025/12/17/cats-got-your-files-lynx-ransomware/). The project recreated a documented attack sequence in an isolated Windows Active Directory training environment, evaluated detection gaps, then implemented and tested additional monitoring and automated response.
 
+**Project evidence:** [Full academic report (PDF)](docs/Lynx_project.pdf) · [Detection specifications](docs/detection-notes.md) · [Methodology and results](docs/methodology-and-results.md)
+
 ## Technologies
 Wazuh SIEM · Sysmon · Windows Security Event Logs · Suricata IDS · Zeek · Active Directory · Windows Server · Ubuntu · VirtualBox · Vagrant · PowerShell · Bash · MITRE ATT&CK
 
@@ -34,9 +36,9 @@ These are selected lab-test results, not production detection accuracy measureme
 - [Detection notes](docs/detection-notes.md)
 - [Methodology and results](docs/methodology-and-results.md)
 - [Publication notes](docs/publication-notes.md)
-- [Project report](docs/) — may be uploaded separately after review
+- [Full project report (PDF)](docs/Lynx_project.pdf)
 
 ## Scope and limitations
-This is an **academic case study**, not a ready-to-run reproduction. Original VM images, logs, and complete source files were not provided for this portfolio. Rule specifications are descriptive unless complete executable originals are added. The simulation used an inert substitute instead of actual ransomware. Screenshots and a report, when added, document lab observations rather than a production deployment.
+This is an **academic case study**, not a ready-to-run reproduction. Original VM images, logs, and complete source files were not provided for this portfolio. Rule specifications are descriptive unless complete executable originals are added. The simulation used an inert substitute instead of actual ransomware. The uploaded report documents lab observations rather than a production deployment.
 
 **Credits:** The original intrusion analysis is by The DFIR Report. CapsuleCorp is a third-party training environment. This portfolio describes work performed for the academic project.
